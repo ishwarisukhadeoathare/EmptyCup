@@ -68,7 +68,7 @@ EmptyCup/
 |   ├── index.html
 ├── README.md               # Project readme
 
-Usage
+# Usage
 View a list of designers on the homepage.
 
 Click to view details about each designer.
