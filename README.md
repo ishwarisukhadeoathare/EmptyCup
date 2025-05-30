@@ -24,15 +24,6 @@ EmptyCup is a full-stack web application that allows users to explore a curated 
 
 ---
 
-## 📷 Screenshots
-
-> _Add screenshots in a `/screenshots` folder and replace these with actual images._
-
-| Home Page | Shortlist Page |
-|-----------|----------------|
-| ![Home](./screenshots/home.png) | ![Shortlist](./screenshots/shortlist.png) |
-
----
 
 ## 🧑‍💻 Getting Started
 
@@ -59,3 +50,27 @@ pip install -r requirements.txt
 
 # Run the app
 flask run
+EmptyCup/
+├── backend/                # Flask backend
+│   ├── data/               
+│       ├── listings.json        
+|   ├── requirements.txt        # Python dependencies
+│   ├── app.py              # Main Flask app
+├── frotend/
+|   ├── assets/
+|       ├── logo.svg
+|   ├── css/
+|        ├── style.css
+|   ├── data
+|         ├──listings.json
+|   ├──js
+|        ├── main.js
+|   ├── index.html
+├── README.md               # Project readme
+
+Usage
+View a list of designers on the homepage.
+
+Click to view details about each designer.
+
+Use the ⭐ button to shortlist them.
