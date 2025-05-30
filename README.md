@@ -1,22 +1,61 @@
-# EmptyCup Assignment
+# 🪑 EmptyCup — Interior Designer Listing Web App
 
-This is an implementation of the EmptyCup full-stack assignment, featuring a mobile-optimized web application for interior designers with shortlisting and filtering functionality.
+EmptyCup is a full-stack web application that allows users to explore a curated list of interior designers. With a clean, mobile-responsive interface and functional backend, it enables users to view designer details and shortlist their favorites.
 
-## Features
+---
 
-1. **Mobile-First UI**:
-   - Accurate implementation of the provided design
-   - Responsive layout for all mobile device sizes
-   - Proper color scheme matching the specifications
+## 🚀 Features
 
-2. **Dynamic Functionality**:
-   - Shortlisting designers with toggle functionality
-   - Filtering to view only shortlisted designers
-   - Persistent shortlists using localStorage
+- 📱 **Mobile-first Responsive UI**
+- 🧑‍🎨 **List of Interior Designers**
+- ⭐ **Shortlist Favorite Designers**
+- 🌐 **Fully Integrated Flask Backend**
+- 🎨 **UI Inspired by Figma Designs**
 
-3. **Backend Integration**:
-   - Flask-based REST API for serving designer data
-   - Fallback to static JSON when API is unavailable
-   - Sample data creation for quick testing
+---
 
-## Project Structure
+## 🛠️ Tech Stack
+
+| Layer       | Technologies           |
+|-------------|------------------------|
+| Frontend    | HTML, CSS, JavaScript |
+| Backend     | Python, Flask         |
+| Versioning  | Git, GitHub           |
+
+---
+
+## 📷 Screenshots
+
+> _Add screenshots in a `/screenshots` folder and replace these with actual images._
+
+| Home Page | Shortlist Page |
+|-----------|----------------|
+| ![Home](./screenshots/home.png) | ![Shortlist](./screenshots/shortlist.png) |
+
+---
+
+## 🧑‍💻 Getting Started
+
+### ✅ Prerequisites
+
+- Python 3.x
+- pip (Python package manager)
+- Git
+
+### 📦 Installation
+
+
+
+# Clone the repository
+git clone https://github.com/ishwarisukhadeoathare/EmptyCup.git
+cd EmptyCup
+
+# (Optional) Create virtual environment
+python -m venv venv
+venv\Scripts\activate   # On Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+flask run
